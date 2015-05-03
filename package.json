@@ -1,0 +1,18 @@
+{
+  "name": "RomansNumbersKata",
+  "version": "0.1.0",
+  "description": "Solution of romans number to Runtimeblog",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "author": "Alvaro Fidalgo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
